@@ -6,3 +6,14 @@ edition = "2021"
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
+clap = { version = "~4.2.7", features = ["derive"] }
+clap-verbosity-flag = "~2.0.1"
+console-subscriber = "~0.1.8"
+derive_more = "~0.99.17"
+log = "~0.4.17"
+reqwest = { version = "~0.11.17", features = ["json"] }
+scraper = "~0.16.0"
+thiserror = "~1.0.40"
+tokio = { version = "~1.28.0", features = ["full", "tracing"] }
+tracing = "~0.1.37"
+tracing-subscriber = { version = "~0.3.17", features = ["json"] }
